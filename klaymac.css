@@ -1,0 +1,121 @@
+body {
+  background-color: #bdb0e6;
+  color: #000000;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  font-family: "bely-display", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-indent: 1em;
+  text-shadow: 3px 3px 5px #709ada;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  font-family: Georgia, "Times New Roman", serif;
+  text-align: center;
+}
+
+nav {
+  font-weight: bold;
+  background-color: #000000;
+  font-size: 1.25em;
+  word-spacing: 0.25em;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: #000000;
+  color: #FFFF;
+}
+
+p {
+  font-size: .90em;
+  text-indent: 3em;
+}
+
+
+/* about me */
+#aboutmephoto {
+  display: flex;
+  float: left;
+  width: 1000px;
+  height: auto;
+  padding: 20px;
+
+}
+#aboutmeinfo {
+  position: absolute;
+  right: 10px;
+  width: 650px;
+  padding: 20px;
+}
+
+/* socials */
+#fbcontainer{
+  display: flex;
+  float: left;
+  width: 500px;
+  padding-left: 10%;
+}
+#instacontainer{
+  display: flex;
+  float: right;
+  width: 500px;
+  height: 300px;
+  padding-right: 9%;
+}
+
+/* creations table */
+.creaionstable {
+    
+    margin: 20px;
+    padding: 20px;
+  }
+
+  tbody {
+    font: 30px Georgia, Serif;
+  }
+
+  #page-wrap {
+    margin: 50px;
+    position: relative;
+
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  tr:nth-of-type(even) {
+    background: #3a034b;
+    color: #ffffff;
+  }
+  tr:nth-of-type(odd) {
+    background: #bdb0e6;
+    color: #000000;
+  }
+
+  td {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+
+  td:nth-of-type(1) {
+    font-weight: bold;
+  }
+
+  td:nth-of-type(2) {
+    width: 75%;
+  }
