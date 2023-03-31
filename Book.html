@@ -9,43 +9,47 @@
     <link rel="stylesheet" href="https://use.typekit.net/wkg2odo.css">
 </head>
 <body>
-    <div>
+    <div class="header-image">
+        <div class="header-text">
         <header>
             <h1><a href="index.html">Klay Mac</a></h1>
         </header>
-       </div> 
+    </div> 
+    <div class="navbar-text">
        <nav>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">Home</a>&nbsp;&nbsp;
-        <a href="about.html">About</a>&nbsp;&nbsp;
-        <a href="creations.html">Creations</a>&nbsp;&nbsp;
-        <a href="Book.html">Book Klay Mac</a>&nbsp;&nbsp;
-        <a href="business.html">Business Inquiries</a>&nbsp;&nbsp;
-        <a href="fans.html">From The Fans</a>&nbsp;&nbsp;
-        <a href="socials.html">Socials</a>&nbsp;&nbsp;
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="creations.html">Creations</a>
+        <a href="Book.html">Book Klay Mac</a>
+        <a href="business.html">Business Inquiries</a>
+        <a href="fans.html">From The Fans</a>
+        <a href="socials.html">Socials</a>
        </nav>
+    </div>
+    </div>
        <div>
-    <h3>This form is for the public.  Offered services include music production for weddings, private parties, birthday events, holiday parties, ceremonies and gatherings.</h3>
-    <h2>Book Klay Mac</h2> 
+    <h5>This form is for the public.  Offered services include music production for weddings, private parties, birthday events, holiday parties, ceremonies and gatherings.</h5>
+    <h3>Book Klay Mac</h3> 
     </div>
     <div class="book_km_form">
         <form action="formsubmit.html">
             <label for="fname">First name:</label><span id="fname_error">*</span><br>
-            <input type="text" id="fname" name="fname" value="" required><br>
+            <input type="text" id="fname" name="fname" class="text-field" value="" required><br>
 
             <label for="lname">Last name:</label><span id="lname_error">*</span><br>
-            <input type="text" id="lname" name="lname" value=""required><br>
+            <input type="text" id="lname" name="lname" class="text-field" value=""required><br>
 
             <label for="city">City/town of residence:</label><span id="city_error">*</span><br>
-            <input type="text" id="city" name="city" value=""required><br>
+            <input type="text" id="city" name="city" class="text-field" value=""required><br>
 
             <label for="reqservice">Required service:</label><span id="reqservice_error">*</span><br>
-            <input type="text" id="reqservice" name="reqservice" value=""required><br>
+            <input type="text" id="reqservice" name="reqservice" class="text-field" value=""required><br>
 
             <label for="eventdate">Date of Event or Special occasion:</label><span id="eventdate_error">*</span><br>
-            <input type="text" id="eventdate" name="eventdate" value=""required><br>
+            <input type="text" id="eventdate" name="eventdate" class="text-field" value=""required><br>
             
             <label for="book_expectaions">Please describe your expectaions of the DJ at your event (Please include your expected attire, music tastes, budget, approximate list of duties for the DJ at your event, and any other special information):</label><span id="expectation_error">*</span><br>
-            <textarea id="book_expectations" name="book_expectaions" rows="4" cols="50"required></textarea><br>
+            <textarea id="book_expectations" name="book_expectaions" class="text-field" rows="4" cols="50"required></textarea><br>
 
             <input type="submit" value="Submit">
           </form> 

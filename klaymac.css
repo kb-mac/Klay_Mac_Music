@@ -1,35 +1,72 @@
-body {
-  background-color: #bdb0e6;
-  color: #000000;
-  font-family: Arial, Verdana, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
-h1 {
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "chapman", sans-serif;
+font-weight: bold;
+font-style: normal;
+
+}
+
+.header-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/banner100.jpeg");
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ .header-text a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: lighter;
+ }
+
+.header-text {
+
+  text-align: center;
+  font-size: 50px;
   display: flex;
   justify-content: center;
-  color: #000000;
+  color: #dedcdc;
   font-family: "bely-display", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  text-indent: 1em;
-  text-shadow: 3px 3px 5px #709ada;
 }
 
-h2 {
+.navbar-text {
+  text-align: center;
+  font-size: 22px;
+  font-family: "chapman", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  word-spacing: 30px;
+}
+
+h3 {
   color: rgb(0, 0, 0);
   font-family: Georgia, "Times New Roman", serif;
   text-align: center;
 }
 
-nav {
-  font-weight: bold;
-  font-size: 1.25em;
-  word-spacing: 0.25em;
-}
 
-nav a {
+.navbar-text a{
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
+  height: 50px;
+  font-size: 20;
+  word-spacing: 0.25em;
+  background-color: transparent;
+  text-align: center;
+  justify-content: center;
 }
 
 p {
@@ -130,6 +167,9 @@ p {
   height: 40%;
   margin-right: auto;
   margin-left: auto;
+}
+.text-field {
+  background-color: #ffffff;
 }
 span {
   color: red;
