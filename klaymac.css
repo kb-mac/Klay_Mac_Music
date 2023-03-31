@@ -5,7 +5,6 @@ body {
 }
 
 h1 {
-  background-color: #ffffff;
   display: flex;
   justify-content: center;
   color: #000000;
@@ -17,23 +16,20 @@ h1 {
 }
 
 h2 {
-  background-color: black;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: Georgia, "Times New Roman", serif;
   text-align: center;
 }
 
 nav {
   font-weight: bold;
-  background-color: #000000;
   font-size: 1.25em;
   word-spacing: 0.25em;
 }
 
 nav a {
   text-decoration: none;
-  background-color: #000000;
-  color: #FFFF;
+  color: #000000;
 }
 
 p {
@@ -119,3 +115,22 @@ p {
   td:nth-of-type(2) {
     width: 75%;
   }
+
+/* book and business forms */
+.book_km_form {
+  display: flex;
+  width: 20%;
+  height: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.business_km_form {
+  display: flex;
+  width: 20%;
+  height: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+span {
+  color: red;
+}

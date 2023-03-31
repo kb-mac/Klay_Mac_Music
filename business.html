@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +9,50 @@
     <link rel="stylesheet" href="klaymac.css" />
     <link rel="stylesheet" href="https://use.typekit.net/wkg2odo.css">
 </head>
+
 <body>
     <div>
         <header>
             <h1>Klay Mac</h1>
         </header>
-       </div> 
-       <nav>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">Home</a>&nbsp;&nbsp;
+    </div>
+    <nav>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">Home</a>&nbsp;&nbsp;
         <a href="about.html">About</a>&nbsp;&nbsp;
         <a href="creations.html">Creations</a>&nbsp;&nbsp;
         <a href="Book.html">Book Klay Mac</a>&nbsp;&nbsp;
         <a href="business.html">Business Inquiries</a>&nbsp;&nbsp;
         <a href="fans.html">From The Fans</a>&nbsp;&nbsp;
         <a href="socials.html">Socials</a>&nbsp;&nbsp;
-       </nav>
-       <div>  
+    </nav>
+    <div>
+        <h3>This form is for industry professionals (musicians or music companies looking to collaborate).  Please keep in mind, Klay Mac is located in Ontario Canada. If travel is required or requested with your proposal, please include this in your form..</h3>
+        <h2>Book Klay Mac</h2> 
+        </div>
+    <div class="business_km_form">
+        <form action="formsubmit.html">
+            <label for="fname">First name:</label><span id="fname_error">*</span><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+
+            <label for="lname">Last name:</label><span id="lname_error">*</span><br>
+            <input type="text" id="lname" name="lname" value=""><br>
+
+            <label for="city">City/town of residence:</label><span id="city_error">*</span><br>
+            <input type="text" id="city" name="city" value=""><br>
+
+            <label for="reqservice">Request or proposal:</label><span id="reqservice_error">*</span><br>
+            <input type="text" id="reqservice" name="reqservice" value=""><br>
+
+            <label for="eventdate">Date of Event or Deadline:</label><span id="eventdate_error">*</span><br>
+            <input type="text" id="eventdate" name="eventdate" value=""><br>
+
+            <label for="business_expectaions">Please describe your expectaions of Klay Mac (Use this area to elaborate
+                on your request):</label><span id="expectation_error">*</span><br>
+            <textarea id="business_expectations" name="business_expectaions" rows="4" cols="50"></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
+
 </html>
